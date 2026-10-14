@@ -11,6 +11,11 @@ A premium weather dashboard that helps you see the weather differently. Built wi
 - **Temperature Units**: Toggle between Celsius and Fahrenheit
 - **Responsive Design**: Fully responsive interface optimized for mobile, tablet, and desktop
 - **Premium UI**: Deep navy backgrounds, atmospheric gradients, glass effects, and elegant typography
+- **Saved Locations**: Save up to 5 favorite cities with localStorage persistence
+- **Auto-Refresh**: Automatic weather data refresh every 15 minutes
+- **Temperature Trend Chart**: Visual temperature trend for the next 24 hours
+- **Severe Weather Alerts**: Warnings for dangerous weather conditions, high UV, and strong winds
+- **Animated Visuals**: Smooth animations, particle effects, and dynamic gradients
 
 ## Technologies Used
 
@@ -29,8 +34,8 @@ A premium weather dashboard that helps you see the weather differently. Built wi
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd weather-dashboard
+git clone https://github.com/chandushreem/weatherDashborad.git
+cd weatherDashborad
 ```
 
 2. Install dependencies:
@@ -110,22 +115,21 @@ Follow the prompts to configure your project.
 
 ## Known Limitations
 
-- Weather data refresh requires manual city re-selection or page reload
-- No saved locations feature
-- No severe weather alerts
-- Temperature trend visualization is not implemented
+- Weather data refresh requires manual city re-selection or page reload (unless auto-refresh is enabled)
+- Saved locations limited to 5 cities
+- Temperature trend chart shows only 24-hour data
 - Limited to 7-day forecast
 - No historical weather data
+- No weather maps integration
 
 ## Future Improvements
 
-- Add saved/favorite locations
-- Implement severe weather alerts
-- Add temperature trend charts
-- Support for multiple weather data sources
-- Dark/light theme toggle
-- Weather maps integration
+- Add weather maps integration
 - Historical weather data view
+- Dark/light theme toggle
+- Support for multiple weather data sources
+- Extended forecast range
+- Weather notifications
 
 ## License
 
